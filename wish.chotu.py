@@ -69,7 +69,7 @@ def show_surprise():
     Hope you have a blast this year.<br>
     Study hard, play hard, and don't be too naughty! 😉<br>
     <br>
-    <b>- Your Big Bro, Srinjoy</b>
+    <b>- Your Bro, Srinjoy</b>
     </div>
     """, unsafe_allow_html=True)
 
@@ -78,4 +78,5 @@ st.title("Surprise for Chotu 🎁")
 st.write("I have a special message for you.")
 
 if st.button("🔥 Tap to Open"):
+
     show_surprise()
